@@ -1,40 +1,68 @@
-import React, { useState } from "react";
+import React from "react";
 import {Component} from 'react';
 import "./clock.css";
 
-class Clock extends Component{
-  updateDateLeft = ()=> {
-    const newNow = new Date().getTime();
-    setDate(solastaDate - newNow);
+class Clock extends Component {
+  constructor(props){
+      super(props);
+      this.state = {
+          days:'00',
+          hrs:'00',
+          min:'00',
+          sec:'00'
+      }
   }
+  componentDidMount(){
+      this.timerId = setInterval(
+          ()=>this.setTimer(),
+          1000
+      );
+  }
+  componentWillUnmount(){
+      clearInterval(this.timerId);
+  }
+  render() { 
+      return ( 
+          <React.Fragment>
+            <div className="Clock">
+        <h1 id="heading">Solasta ETA</h1>
+        <div className="time">
+          <h1 id="value">{this.state.days}</h1>
+          <h4 id="notation">days</h4>
+        </div>
+        <div className="time">
+          <h1 id="value">{this.state.hrs}</h1>
+          <h4 id="notation">hours</h4>
+        </div>
+        <div className="time">
+          <h1 id="value">{this.state.min}</h1>
+          <h4 id="notation">minutes</h4>
+        </div>
+        <div className="time">
+          <h1 id="value">{this.state.sec}</h1>
+          <h4 id="notation">seconds</h4>
+        </div>
+      </div>
+            </React.Fragment>
+        );
+    }
 
-  render(){
-  setInterval(this.updateDateLeft, 1000);
-  const now = new Date().getTime();
-  const solastaDate = new Date(2020, 2, 13).getTime();
-  const [date, setDate] = useState(solastaDate - now);
+  setTimer = ()=>{
+      let countDownDate = new Date("Mar 17, 2020 23:59:59").getTime();
+      //todays time
+      let now = new Date().getTime();
+      var differ = countDownDate - now ;
 
-   return (
-    <div className="Clock">
-      <h1 id="heading">Solasta ETA</h1>
-      <div className="time">
-        <h1 id="value">{Math.floor(date / (1000 * 3600 * 24))}</h1>
-        <h4 id="notation">days</h4>
-      </div>
-      <div className="time">
-        <h1 id="value">{Math.floor(date / (1000 * 3600)) % 24}</h1>
-        <h4 id="notation">hours</h4>
-      </div>
-      <div className="time">
-        <h1 id="value">{Math.floor(date / (1000 * 60)) % 60}</h1>
-        <h4 id="notation">minutes</h4>
-      </div>
-      <div className="time">
-        <h1 id="value">{Math.floor(date / 1000) % 60}</h1>
-        <h4 id="notation">seconds</h4>
-      </div>
-    </div>
-  ); 
+      if(differ > 0){
+          const days = Math.floor(differ/(1000 * 60 * 60 * 24));
+          const hrs= Math.floor(differ%(1000 * 60 * 60 * 24)/ (1000 * 60 * 60));
+          const min= Math.floor(differ%(1000 * 60 * 60 )/ (1000 * 60 ));
+          const sec= Math.floor(differ%(1000 * 60 )/ (1000 ));
+          this.setState({days,hrs,min,sec});
+      }
+      else{
+          this.setState({days:'00',hrs:'00',min:'00',sec:'00'});
+      }
   }
 }
 

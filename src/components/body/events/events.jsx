@@ -18,7 +18,7 @@ class Events extends Component {
                     <span className='fa fa-lg fa-angle-right mt-3 px-2 py-1 rounded-circle text-light' id='angle-right' style={{position:'absolute',top:'85px',left:'5%',zIndex:'7',backgroundColor:'blue'}} onClick={this.toggleWindow}/>
 
                     {/*side nav for choosing event type  */}
-                    <div className="col-md-3 col-lg-2 shadow-lg border " id='category-chooser' style={{marginTop:"40px",backgroundColor:"#012549"}}>
+                    <div className="col-md-3 col-lg-2 shadow-lg border " id='category-chooser' style={{marginTop:"0px",backgroundColor:"#012549"}}>
                         <h2 className="text-light mt-5 mb-3  mx-0 categorycss" style={{fontFamily:'Exo'}}>CATEGORY 
                             <span className="fa fa-xs fa-close text-light float-right mt-1" style={{cursor:"pointer"}} onClick={this.toggleWindow}/>
                         </h2>
@@ -28,7 +28,7 @@ class Events extends Component {
                     </div>
 
                     {/*contains list of all events in form of an array event_cards  */}
-                    <div className="col-md-9 col-lg-10 "style={{marginTop:"60px",backgroundColor:'#f2f2f2'}}>
+                    <div className="col-md-9 col-lg-10 "style={{marginTop:"5px",backgroundColor:'#f2f2f2'}}>
                     <h1 className="text-center text-dark" style={{fontFamily:'Exo'}} ><strong>Events</strong></h1>
                     <hr/>
                     <p className='text-center'>For Complete Schedule visit <a href='https://docs.google.com/spreadsheets/d/1borCwvgv9Gr6L3mV-lb0EgjcQvO-nrZr7dwd-q1lJ_w/edit?usp=sharing'> this link</a></p>

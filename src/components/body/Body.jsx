@@ -5,6 +5,7 @@ import NavBar from '../header/NavBar';
 import Footer from '../footer/Footer';
 import TopHeader from './topHeader';
 import Clock from './Clock';
+import AboutUs from './AboutUs';
 
 class Body extends Component {
 
@@ -22,34 +23,15 @@ class Body extends Component {
             <div className="root-body " style={{position:'relative'}}>
                 <NavBar/>
                 <TopHeader/>
-                {/* <Clock/> */}
+                <Clock/>
 
 
                 {/* about us */}
-                <div className='row' id="about-us">
-                    <div className="centeralign col-md-8" style={{ height: "auto",backgroundColor:'#00ccff',color:'black' }}>
-                    <h1 className="py-5 text-center fontnew ">
-                                About Us
-                    </h1>
-                    <h3 className="centeralign px-5 text-justify mb-0 fontsizenew" style={{width:'100%', paddingBottom:'100px'}}>
-                        Be a solivagant or a group traveller,
-                        IIITDM Kurnool is the place to set your hearts racing right into your souls.
-                        Solasta, the inception of designology. It is the annual techno-cultural fest of IIITDM Kurnool also
-                        spans from Baker Street to the vast gold fields. Be there to witness it.
-                    </h3>
-                    </div>
-                    <div className='col-md-4 pt-5 text-center' style={{backgroundColor:'#59595e'}}>
-                            <h1 className="pb-3 text-center text-light " style={{fontFamily:'Exo',fontSize:'50px'}}>
-                                       Invitation 
-                            </h1>
-                            <img className='pb-3' src={require('../res/qr_code.png')} height='300px' width='auto' alt='solasta_qr'
-                            onClick={()=>document.location.replace('http://l.ead.me/bb4rZe')} style={{cursor:'pointer'}}/>
-                    </div>
-                    </div>
+                    <AboutUs/>
             
 
         {/* div for using carousel for past events */}
-        <div id="past-events" className="container-fluid px-0 row mx-0"  style={{backgroundColor:'#0f3942', position:'relative', top:'500px'}}>
+        <div id="past-events" className="container-fluid px-0 row mx-0"  style={{backgroundColor:'#0f3942', position:'relative', top:'700px'}}>
             <div className='col-md-1 col-sm-0'></div>
             <div className='col-md-10 col-sm-12 '>
                 <h2 className='text-center text-light' style={{position:'absolute',width:'90%',zIndex:'4',fontFamily:'Exo'}}>Our Events</h2>

@@ -2,7 +2,6 @@
 import React, { Component } from 'react';
 import fire from '../../config/fire';
 import 'firebase/auth';
-import Clock from '../body/Clock';
 
 class Login extends Component {
     constructor(props){
@@ -98,7 +97,6 @@ class Login extends Component {
             // for login page
             return (
                 <form>
-                    <Clock/>
                     <div className='form-group' style={{fontFamily:'Exo'}}>
                         <label  htmlFor='exampleInputEmail'>Email Address</label>
                         <input value={this.state.email} onChange={this.handleChange} type='email' name='email'

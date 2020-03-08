@@ -1,9 +1,12 @@
 .Clock {
+  position: relative;
   font-family: sans-serif;
   text-align: center;
   background-color: rgb(7, 31, 63);
   color: white;
   padding: 3rem;
+  z-index: 2;
+  top:800px;
 }
 .time {
   display: inline-block;
@@ -23,4 +26,6 @@
 }
 #value {
   margin-bottom: 0.75rem;
+  position: relative;
+  right: 2rem;
 }
