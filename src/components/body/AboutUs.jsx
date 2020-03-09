@@ -48,10 +48,10 @@ function AboutUs() {
           <div className="textt">
             <p>
               Solasta is a techno-cultural fest organized by the student
-              community and is aimed to develop the leadership and
-              organizational skills in students. The fest includes many
+              community of IIITDM Kurnool and is aimed to develop the leadership and
+              organizational skills in students. The annual fest includes many
               technical and cultural events with participants and audience from
-              our institute and other collges as well.
+              various colleges.
             </p>
           </div>
           <div className="button">
