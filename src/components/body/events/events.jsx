@@ -5,12 +5,34 @@ import './events.css';
 import event_det from './events_details';
 
 class Events extends Component {
-    state = {
-        cat_window_status: true,
-        event_details : event_det,
-        categories: ['Art','Coding','Drama','Dance','Photography','Music','EMC','Mech','Workshops','Miscellaneous'],
-        event_cat:'Art',
-    };
+    constructor(props){
+        super(props);
+        this.state={
+            cat_window_status: true,
+            event_details : event_det,
+            categories: ['Art','Coding','Drama','Dance','Photography','Music','EMC','Mech','Workshops','Miscellaneous'],
+            event_cat:'Art',
+        };
+    }
+    // state = {
+    //     cat_window_status: true,
+    //     event_details : event_det,
+    //     categories: ['Art','Coding','Drama','Dance','Photography','Music','EMC','Mech','Workshops','Miscellaneous'],
+    //     event_cat:'Art',
+    // };
+
+    componentDidMount(){
+        const proxyurl = "https://cors-anywhere.herokuapp.com/";
+        const apiurl = "https://solastaback.herokuapp.com/event_details/0/coding";
+
+        fetch(proxyurl+apiurl)
+        .then(function(response){
+            return response.json();
+        })
+        .then((myJson)=>{
+            console.log(myJson);
+        })
+    }
     render() { 
         return ( 
                 <div className="container-fluid row mx-0 px-0 " style={{position:'relative'}}>
