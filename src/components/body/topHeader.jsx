@@ -24,6 +24,7 @@ class TopHeader extends Component {
   render() {
     return (
       <div onWheel={this.scroll} id='root-header'>
+      	  <div className="fest-name">SoLASTA</div>
           <Particle/>
           <div className="background" >  
           <div id='moon' style={this.state.style}>

@@ -15,8 +15,17 @@ h1, p {
   height:100%; 
   
 }
+.fest-name{
+  font-family: 'Star Jedi', arial;
+  font-size: 8rem;
+  color: white;
+  position: absolute;
+  top: 10rem;
+  left: 15rem;
+  z-index: 6;
+}
 #moon{
- position: absolute;
+position: absolute;
 bottom: 10%;
 width: 37%;
 right: 20px;
