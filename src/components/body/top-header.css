@@ -22,11 +22,11 @@ h1, p {
 }
 .fest-name{
   font-family: 'zedi', arial;
-  font-size: 8rem;
+  font-size: 8vw;
   color: #C5C6C7;
   position: absolute;
-  top: 10rem;
-  left: 12rem;
+  bottom: -22rem;
+  left: 11%;
   z-index: 4;
 }
 #moon{

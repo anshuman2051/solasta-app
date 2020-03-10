@@ -2,6 +2,7 @@
     top:480px;
     position: relative;
     background: #022f40;
+    z-index: 1;
 }
 h1 {
   padding-left: 20px;

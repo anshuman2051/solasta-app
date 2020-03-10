@@ -3,5 +3,6 @@
     /* background-image: url("../res/251038.jpg"); */
     content: "my name";
     position: absolute;
-    z-index: 2;
+    z-index: 1;
+    position: fixed;
 }

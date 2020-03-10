@@ -15,18 +15,20 @@ class TopHeader extends Component {
   scroll = (evt)=>{
    const image = document.getElementById('moon');
    let scrollDist = window.scrollY;
-   this.setState({style: {
-        transform : `translate(0px,${scrollDist*1}px)`
-      }})
+   setTimeout(()=>{
+    this.setState({style: {
+          transform : `translate(0px,${scrollDist*0.5}px)`
+        }})
+   },20);
   //  console.log(evt.wheelDelta);
    image.style.transform = this.state.style;
  }
   render() {
-    const image = require('../res/solasta-logo.png');
+    const image = require('../res/transparent-glow.png');
     return (
       <div onWheel={this.scroll} id='root-header'>
           <img id="solasta-img" src={image} alt="solasta-img"/>
-      	  <div className="fest-name">SoLASTA</div>
+      	  <div className="fest-name" style={{borderBottom:"8px solid "}}>SoLASTA</div>
           <Particle/>
           <div className="background" >  
           <div id='moon' style={this.state.style}>

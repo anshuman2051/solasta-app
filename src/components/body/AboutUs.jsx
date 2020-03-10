@@ -31,7 +31,8 @@ function zoomOut() {
 }
 
 function AboutUs() {
-  const image = require('../res/solasta-logo2.png');
+  // const image = require('../res/solasta-logo2.png');
+  const image = require('../res/transparent-glow.png');
   return (
     <div id="about-us">
 

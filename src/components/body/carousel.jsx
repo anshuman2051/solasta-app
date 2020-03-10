@@ -5,14 +5,13 @@ import {
   CarouselControl,
   CarouselIndicators,
   CarouselCaption,
-  UncontrolledCarousel 
 } from 'reactstrap';
 
 
-const image1 = require("../res/carousel/161876.jpg");
-const image2 = require("../res/carousel/681102.jpg");
-const image3 = require("../res/carousel/76383.jpg");
-const image4 = require("../res/carousel/78487.jpg");
+const image1 = require("../res/carousel/car1.JPG");
+const image2 = require("../res/carousel/car2.JPG");
+const image3 = require("../res/carousel/car3.JPG");
+const image4 = require("../res/carousel/car4.JPG");
 const image5 = require("../res/carousel/5328.png");
 const items = [
   {
@@ -85,7 +84,7 @@ class MyCarousel extends Component{
           onExited={this.onExited}
           key={item.src}
           >
-            <img  src={item.src} alt={item.altText} style={{width:'100%',height:'100%'}}/>
+            <img  src={item.src} alt={item.altText} style={{width:'100%',height:'35rem'}}/>
             <CarouselCaption captionText={item.caption} captionHeader={item.caption}/>
           </CarouselItem>
       );
