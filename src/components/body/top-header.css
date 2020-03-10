@@ -15,8 +15,22 @@ h1, p {
   height:100%; 
   
 }
+
+@font-face{
+  font-family: "zedi";
+  src: url("../res/fonts/star-jedi.ttf");
+}
+.fest-name{
+  font-family: 'zedi', arial;
+  font-size: 8rem;
+  color: #C5C6C7;
+  position: absolute;
+  top: 10rem;
+  left: 12rem;
+  z-index: 4;
+}
 #moon{
- position: absolute;
+position: absolute;
 bottom: 10%;
 width: 37%;
 right: 20px;
@@ -44,4 +58,7 @@ right: 20px;
 #solasta-img{
   position: absolute;
   z-index: 1;
+  right: 2%;
+  width: auto;
+  height: 7rem;
 }

@@ -16,7 +16,7 @@ class TopHeader extends Component {
    const image = document.getElementById('moon');
    let scrollDist = window.scrollY;
    this.setState({style: {
-        transform : `translate(0px,${scrollDist*0.5}px)`
+        transform : `translate(0px,${scrollDist*1}px)`
       }})
   //  console.log(evt.wheelDelta);
    image.style.transform = this.state.style;
@@ -26,6 +26,7 @@ class TopHeader extends Component {
     return (
       <div onWheel={this.scroll} id='root-header'>
           <img id="solasta-img" src={image} alt="solasta-img"/>
+      	  <div className="fest-name">SoLASTA</div>
           <Particle/>
           <div className="background" >  
           <div id='moon' style={this.state.style}>

@@ -31,15 +31,16 @@ function zoomOut() {
 }
 
 function AboutUs() {
+  const image = require('../res/solasta-logo2.png');
   return (
     <div id="about-us">
 
       <div className="logo">
         <img
-          onmouseover={increase}
-          onmouseout={decrease}
+          onMouseOver={increase}
+          onMouseOut={decrease}
           id="about-img"
-          src="https://upload.wikimedia.org/wikipedia/commons/f/f2/20-gon-dissection-random.svg"
+          src={image}
           alt="logo"
         />
       </div>
