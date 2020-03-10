@@ -40,3 +40,8 @@ right: 20px;
   height: 200px;
   background-color: white;
 }
+
+#solasta-img{
+  position: absolute;
+  z-index: 1;
+}

@@ -21,18 +21,18 @@ class Events extends Component {
     //     event_cat:'Art',
     // };
 
-    componentDidMount(){
-        const proxyurl = "https://cors-anywhere.herokuapp.com/";
-        const apiurl = "https://solastaback.herokuapp.com/event_details/0/coding";
+    // componentDidMount(){
+    //     const proxyurl = "https://cors-anywhere.herokuapp.com/";
+    //     const apiurl = "https://solastaback.herokuapp.com/event_details/0/coding";
 
-        fetch(proxyurl+apiurl)
-        .then(function(response){
-            return response.json();
-        })
-        .then((myJson)=>{
-            console.log(myJson);
-        })
-    }
+    //     fetch(proxyurl+apiurl)
+    //     .then(function(response){
+    //         return response.json();
+    //     })
+    //     .then((myJson)=>{
+    //         console.log(myJson);
+    //     })
+    // }
     render() { 
         return ( 
                 <div className="container-fluid row mx-0 px-0 " style={{position:'relative'}}>

@@ -48,7 +48,7 @@ class Clock extends Component {
     }
 
   setTimer = ()=>{
-      let countDownDate = new Date("Mar 17, 2020 23:59:59").getTime();
+      let countDownDate = new Date("Mar 13, 2020 23:59:59").getTime();
       //todays time
       let now = new Date().getTime();
       var differ = countDownDate - now ;

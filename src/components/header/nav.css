@@ -58,9 +58,9 @@ ul{
 }
 #side-nav ul{
   display:none;
-  position: absolute;
+  position: fixed;
   top:60px;
-  left:50%;
+  left:40%;
 }
 #side-nav ul li{
   font-size:30px;

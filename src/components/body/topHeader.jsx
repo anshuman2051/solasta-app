@@ -22,8 +22,10 @@ class TopHeader extends Component {
    image.style.transform = this.state.style;
  }
   render() {
+    const image = require('../res/solasta-logo.png');
     return (
       <div onWheel={this.scroll} id='root-header'>
+          <img id="solasta-img" src={image} alt="solasta-img"/>
           <Particle/>
           <div className="background" >  
           <div id='moon' style={this.state.style}>
