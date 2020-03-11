@@ -57,8 +57,9 @@ right: 20px;
 
 #solasta-img{
   position: absolute;
+  top: 2.25rem;
   z-index: 1;
   right: 2%;
   width: auto;
-  height: 7rem;
+  height: 9rem;
 }
