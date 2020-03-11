@@ -27,7 +27,7 @@ class Body extends Component {
             return(
                 <div class="bs-example"> 
                     <div class="alert alert-success alert-dismissible fade show mb-0" style={{zIndex:'9',position:'fixed',left:'15%'}}>
-                        <center><strong>Warning!</strong> Best viewde in PC on chrome >= 60.0</center>
+                        <center><strong>Warning!</strong> Best viewed in PC on chrome >= 60.0</center>
                         {/* <button type="button" class="close" data-dismiss="alert" onClick={this.close}>&times;</button> */}
                     </div>
                 </div>

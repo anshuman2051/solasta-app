@@ -1,102 +1,231 @@
-//robo picture not showing
-const event_det = ()=> [
-    {
-        art: [
-            {
-                name: 'WHAT`S IN YOUR MIND',
-                desc: 'First, participants will be given 4 A4 size sheets and a topic(any TV series,movies).For example let Avengers be the topic.Then they will have to draw or paint whatever comes to their mind.Since it consists of 4 rounds like this,4 different topics will be given and students will Be judged on the basis of their creativity and representation.',
-                price: ' ₹1,200/-',
-                rules: [
-                    'duration 30-40 minutes',
-                    'Ideas from external sources are not allowed',
-                    'materials required: A4 sheets, art supplies'
-                ],
-                contact: [
-                    'PREETISHA MANDAVI-9340054445',
-                    'DIDLA JOEL- 7288801574 '
-                ],
-                image:require('../../res/events/art/whatsInMind.png')
-            },
-            {
-                name: 'RUN TO GET PAINTED',
-                desc: 'The hands of each contestant will be tied up and a random coloured sketch pen will be provided on the spot.The participant will have to run to get it painted/scribbled from non participants and take a selfie with them along with their drawing.The person reaching the end point within the deadline with more selfies will win the game.',
-                price: ' ₹1,000/-',
-                rules: [
-                    'Only one person should paint at a time.',
-                    'Without a picture a drawn figure won’t be considered.',
-                    'Only the sketch pen provided should be used to draw.(Volunteer)',
-                    'The time limit should be strictly followed',
-                    'materials REQUIRED: Sketch pens, mobile phones with a front camera.',
-                ],
-                contact: [
-                    'PREETISHA MANDAVI-9340054445',
-                    'DIDLA JOEL- 7288801574 '
-                ],
-                image:require('../../res/events/art/runToPaint.png')
-            },
-            {
-                name: '#IGRAM',
-                desc: 'Participants should click pictures in front of the photo booth with the #SOLATSA prop and be upload it on Instagram.The post with maximum likes by the end of the third day will be judged the winner.',
-                price: ' ₹1,000/-',
-                rules: [
-                    'fake likes won`t be entertained',
-                    'do not fail to include hashtag(#SOLASTA) in your post',
-                ],
-                contact: [
-                    'PREETISHA MANDAVI-9340054445',
-                    'DIDLA JOEL- 7288801574 '
-                ],
-                image:require('../../res/events/art/igram.png')
-            },
-            {
-                name: 'Face smearing /tattoomaking',
-                desc: 'Participants will be provided with poster colors or fabric colors.\
-                        They have to paint their friend`s/acquaintance`s face with those colors within the given time limit. \
-                        The one with the best face painting wins.\
-                        In tattoo making the participant needs to paint tattoos on their friend`s body part (be it palm, shoulder, face,\
-                        neck)within the given time limit. The one with the best and creative tattoo wins.',
-                price: ' ₹1,000/-',
-                rules: [
-                    'Time limit is to be strictly followed.',
-                    'Get along your body part to get painted.'
-                ],
-                contact: [
-                    'PREETISHA MANDAVI-9340054445',
-                    'DIDLA JOEL- 7288801574 '
-                ],
-                image:require('../../res/events/art/face_smear.png')
-            },
-            {
-                name: 'Listen to Draw',
-                desc: 'Firstly participants will be made to hear music with three consecutive chances(only for\
-                            music)and then they will be provided with A4/chart paper. They have\
-                            to draw a picture which relates to the music within the specified time limit. Who draws most relatively\
-                            Is considered as the winner.',
-                price: ' ₹ 800/-',
-                rules: [
-                    'duration : 40 min',
-                    'Time limit is to be strictly followed.',
-                    'If the music is skipped participant cannot rewind it. In case if the participant loses\
-                            All the chances last chance is fixed to continue his next step.',
-                    'If the A4 sheet/Chart paper gets damaged extras will not be provided.',
-                    'materials Required: A4 sheet/chart paper, art equipments, mobile with headphones.',
-                ],
-                contact: [
-                    'PREETISHA MANDAVI-9340054445',
-                    'DIDLA JOEL- 7288801574 '
-                ],
-                image:require('../../res/events/art/listenToDraw.png')
-            },
-        ]
-    }
-    ,
-    {
-        coding : [
+//modify for event details
+const event_det = ()=> 
+[
+  {
+    Fun:
+    [
+      {
+        name:'Treasure Hunt',
+        desc:"Join the party, mate! It's going to be fun! on 14th March 2020 at 10 A.M.",
+        price:'Not Given',
+        rules:
+        [
+
+        ],
+        contact:
+        [
+
+        ],
+        image:require('../../res/events/fun/treasure.png'),
+        reg_link:'Not Given'
+      },
+      {
+        name:'Stay Hungry',
+        desc:'Eating competition, Fastest win it all! on 14th March from 12:00 P.M. - 1:00 P.M.',
+        price:'Not Given',
+        rules:
+        [
+
+        ],
+        contact:
+        [
+          'Hassan - 8374519886',
+          'Anupam - 9676644319'
+        ],
+        image:require('../../res/events/fun/stayHungry.jpg'),
+        reg_link:'Not Given'
+      },
+      {
+        name:'Private Eye',
+        desc:'Explore the Sherlock in you',
+        price:'Not Given',
+        rules:
+        [
+
+        ],
+        contact:
+        [
+
+        ],
+        image:require('../../res/events/fun/privateEye.jpeg'),
+        reg_link:'Not Given'
+      },
+    ]
+  },
+
+  {
+    Drama:
+    [
+      {
+        name:'Mannequin Challenge',
+        desc:'Not Given',
+        price:'Prizes Worth ₹800/-',
+        rules:
+        [
+
+        ],
+        contact:
+        [
+          '9629419185',
+          '9908491357'
+        ],
+        image:require('../../res/events/drama/MC.jpg'),
+        reg_link:'Not Given'
+      },
+      {
+        name:'Raise the Curtain',
+        desc:'Not Given',
+        price:'Prizes Worth ₹1000/-',
+        rules:
+        [
+
+        ],
+        contact:
+        [
+          '9629419185',
+          '9908491357'
+        ],
+        image:require('../../res/events/drama/raiseCurtain.jpg'),
+        reg_link:'Not Given'
+      },
+      {
+        name:'Spot Light',
+        desc:'The best time to shine in the era of walking shadows on March 13th 2020, Time: 17:00 - 19:00.',
+        price:'Prizes Worth ₹800/-',
+        rules:
+        [
+          '9629419185',
+          '9908491357'
+        ],
+        contact:
+        [
+
+        ],
+        image:require('../../res/events/drama/spot.jpg'),
+        reg_link:'Not Given'
+      }
+    ]
+  },
+
+  {
+    Music:
+    [
+      {
+        name:'Battle of Bands',
+        desc:'15 March 4:00 P.M. onwards, Venue:The Stage',
+        price:'Not Given',
+        rules:
+        [
+
+        ],
+        contact:
+        [
+
+        ],
+        image:require('../../res/events/music/BOB.png'),
+        reg_link:'Not Given'
+      },
+      {
+        name:'Roohaniyat',
+        desc:'Solo Singing Competition, March 14th 2020, 2:00 P.M. onward, Venue:The Institute Seminar Hall',
+        price:'Prizes Worth ₹1500/-',
+        rules:
+        [
+
+        ],
+        contact:
+        [
+
+        ],
+        image:require('../../res/events/music/ROOHANIYAT.png'),
+        reg_link:'Not Given'
+      },    
+    ]
+  },
+
+  {
+    ThugDancers:
+    [
+      {
+        name:'Bop Till U Drop',
+        desc:'Group Dance(Min. 4 members, Max. Time 4 Minutes), Registration fee is applicable',
+        price:'Prizes Worth ₹2000/-',
+        rules:
+        [
+
+        ],
+        contact:
+        [
+          '9550681001',
+          '9381690262'
+        ],
+        image:require('../../res/events/dance/btud.png'),
+        reg_link:'Not Given'
+      },
+      {
+        name:'Hoedown',
+        desc:'For Solo performance Max. Duration:4 Minutes, For Duo performance Max. Duration:4 Minutes, Registration fee is applicable',
+        price:'Prizes Worth ₹1000/-',
+        rules:
+        [
+
+        ],
+        contact:
+        [
+          '9381690262',
+          '9550681001'
+        ],
+        image:require('../../res/events/dance/hoedown.jpg'),
+        reg_link:'Not Given'
+      },
+      {
+        name:'Splash It',
+        desc:'Registration fee is applicable',
+        price:'Prizes Worth ₹1500/-',
+        rules:
+        [
+
+        ],
+        contact:
+        [
+          '9381690262',
+          '9550681001'
+        ],
+        image:require('../../res/events/dance/splash.png'),
+        reg_link:'Not Given'
+      },
+    ]
+  },
+
+  {
+    DataScience:
+    [
+      {
+        name:'Are You There?',
+        desc:'SO, guessing what is it right....\
+        We are going to conduct a machine learning competition for which the clue for the question is given above "are you there?" Let me add 1 more.. its going to be a classification problem guys.',
+        price:'Prizes Worth ₹8,000/-',
+        rules:
+        [
+
+        ],
+        contact:
+        [
+          'Gouse Mohammed - 7013778607' ,
+          'B K S Raghuram - 9347358938'
+        ],
+        image:require('../../res/events/ds/DataScience.jpg'),
+        reg_link:'Not Given'
+      }
+    ]
+  },
+    
+  {
+    coding : [
         {
         name:'Reverse Coding',
         desc : ' Put on your thinking caps and train your natural neural networks. For reverse coding will have you recognizing patterns in functions and replicating them. You will be given a set of executable files that accept input and give an output after performing some function on them. Your task is to figure out what function is hidden in the code and replicate it.',
-        price: ' 1st Prize  ₹2,000/- \
-         2nd Prize  ₹1,000/-',        
+        price: ' 1st Prize  ₹7,000/-',
         rules: [
                 'it is an online event',
                 'total duration is 2 hrs',
@@ -104,740 +233,155 @@ const event_det = ()=> [
                 'All submissions are run through a plagiarism detector. Any case of code plagiarism will disqualify both users from the contest.',
                 'You will be given output of the certain algorithm, you have to find it in accordance with the input test case.',
                 'Join the Competition at this link :',
-                '  https://www.hackerrank.com/reverse-coding-1-2'
+                'will be updated soon'
             ],
         contact: [
-                    'Vibhor Srivastava - 9506859353' ,
-                    'Amit Sharma - 7049452169',
-                    'Ashutosh Hathidara - 8320758513',
-                    'Nischay Pandey - 8008457009'
+                    'Anshuman singh- 9511028795' ,
+                    'gayathri - 7013979231',
                 ],
-                image:require('../../res/events/coding/reverse_coding.jpeg')
+                image:require('../../res/events/coding/reverse_coding.jpeg'),
+        reg_link: "#"
     },
     {
-        name:'Code Battle',
+        name:'Code ON',
         desc : 'Coding competition  consisting of 5 question.',
-        price: ' 1st Prize  ₹2,500/-  2nd Prize  ₹1,500/- 3rd Prize ₹1,000/-',
+        price: ' 1st Prize  ₹7000/-',
         rules: [
                 'it is an online event',
                 'Code directly from hackerrank platform, which supports over 30 languages.',
                 'All submissions are run through a plagiarism detector. Any case of code plagiarism will disqualify both users from the contest.',
                 'There will be 5 Algorithmic questions. Participants have to solve them within the given time duration using any one of the programming languages.',
                 'Join the Competition at this link :',
-                ' https://www.hackerrank.com/code-battle-solasta'
+                'will be updated soon'
             ],
         contact: [
-                    'Ashutosh Hathidara - 8320758513',
-                    'Nischay Pandey - 8008457009',
-                    'Prasoon Mishra- 8005364128' ,
-                    'Amit Sharma - 7049452169',
+                    'Anshuman singh- 9511028795' ,
+                    'gayathri - 7013979231',
                 ],
-                image:require('../../res/events/coding/Code_Battle.jpeg')
-    },
-    {
-        name:'Bug Debug',
-        desc : 'Debug the code given and bring the desired output.',
-        price: '1st Prize  ₹1,200/- \
-         2nd Prize  ₹800/-',
-        rules: [
-                'this event will be held onsite',
-                'total 5 questions',
-                'requirements : pen and paper',
-                'duration : 1.5 hrs',
-                'You have to underline the error (logical or syntactical) with Pencil.', 
-                'You have to write the correct erroneous line in the space given below the code.',
-                'Any case of copying will lead to disqualification from the event.',
-            ],
-        contact: [
-                    'Prasoon Mishra- 8005364128' ,
-                    'Amit Sharma - 7049452169',
-                    'Sanjeev Kumar - 8608311411',
-                    'Revanth Madamala - 7550154088'
-                ],
-                image:require('../../res/events/coding/bug_debug.jpeg')
+        image:require('../../res/events/coding/codeon.jpg'),
+        reg_link: "https://www.google.com"
     },
     {
         name:'App-A-Thon',
         desc: 'Participants have to choose one among the five given topics and make a Web/Android/IOS application on that topic.',   
-        price: ' 1st Prize  ₹2,000/- \
-         2nd Prize  ₹1,000/-',
+        price: ' 1st Prize  ₹7,000/-',
         rules: [
                 'online event',
                 'it is a 3 day event',
                 'This is a team participation online event. Maximum 3 members can be there in a team.',
                 'Join the Competition at this link  :',
-                ' https://drive.google.com/open?id=1U9B3MY4ja0NSKkhpQBjsfGL_VLoEnLgR',
+                'will be updated soon',
                 '( Take a look at the ReadMe )'
             ],
         contact: [
-                    'Amit Sharma - 7049452169',
-                    'Vibhor Srivastava - 9506859353' ,
-                    'Ashutosh Hathidara - 8320758513',
-                    'Nischay Pandey - 8008457009',
-                    
+                    'Anshuman singh- 9511028795' ,
+                    'gayathri - 7013979231',
                 ],
-                image:require('../../res/events/coding/appathon.jpeg')
+                image:require('../../res/events/coding/appathon.png'),
+        reg_link: "https://www.google.com"
     },
-    {
-        name:'Tech Intellect',
-        desc: 'This event is one of the most exciting events of Solasta where the knowledge about technology and innovation is tested in a fun way. This quiz is a haven for people with the knack for new technologies and unconventional thinking. Anyone can participate in this quiz to test their sustainable well-being ',
-        price: ' 1st Prize  ₹2,000/- \
-         2nd Prize  ₹1,000/-',
-        rules: [
-                'requirements : pen and paper',
-                'duration - 3hrs',
-                'This is an onsite quiz competition consisting of 2 rounds. First round will be a written quiz and the second round will be a face to face interview.',
-                'Quiz questions will be based on latest technology trends.',
-                
-            ],
-        contact: [
-                    'Sanjeev Kumar - 8608311411',
-                    'Ashutosh Hathidara - 8320758513',
-                    'Nischay Pandey - 8008457009',
-                    'Amit Sharma - 7049452169',
-        
-                ],
-                image:require('../../res/events/coding/Tech_Intellect.png')
-    },
-    {
-        name:'Train the brain',
-        desc: 'This event is one of the most exciting events of Solasta where participants need to train the given deep learning problem using the best model they can use . The ones who enjoy playing with the brain (neural networks ) can participate in it.',
-        price: ' 1st Prize  ₹2,000/-',
-        rules: [
-                'duration : 3hrs',
-                'It is Machine Learning and Deep Learning based online competition in which you will be given a dataset and an already processed code. You have to choose an appropriate model and implement it on the given dataset.',
-                'Participants will be ranked on the bases of test dataset accuracy.',
-                'Join the Competition at this link  :',
-                ' https://drive.google.com/open?id=1SsVbrcal3pKW0HqUot9ay6UNhs-xDjU3'
-            ],
-        contact: [
-                    'Nischay Pandey - 8008457009',
-                    'Ashutosh Hathidara - 8320758513',
-                    'Sanjeev Kumar - 8608311411',
-                    'Revanth Madamala - 7550154088'
-                ],
-                image:require('../../res/events/coding/train_the_brain.jpeg')
-    }
-
+    
 ],
-    },
-    {
-        dance : [
-            {
-                name : 'SHOOT OUT',
-                desc : 'It`s an inter college event and anyone can participate in it',
-                price : ' ₹2,500/-',
-                rules : [
-                            'Stage is divided into 2 halves',
-                            'Two participants selected randomly should come and perform spontaneously on given track',
-                            'Track will be played before the actual turn comes up',
-                            '1 min will be given to the participants to choreograph themselves',
-                            'Time limit is 2-3 min',
-                            'Solo performance or can be duo (depending on  tracks)',
-                            'One participant from each face-off is selected and after all the face-offs are completed, the selected\
-                            contestants have to perform on their track.',
-                            'Selection will be based on your performance considering agility, expression and perfection'
-                        ],
-                contact : ['Narasimha - mdm16b003@iiitk.ac.in - 8331069338'],
-                image:require('../../res/events/dance/SHOOTOUT.jpeg')
-            },
-            {
-                name : 'CLUSTERS 2K19',
-                desc : ' An inter college event.Anyone can participate in it',
-                price : ' ₹1,500/-',
-                rules : [
-                            'Dance form and type is of your choice',
-                            'There will be 2 rounds.',
-                            'First round :- Contestant should show their performance for their own track.',
-                            'Depending on their performance the contestant will be selected for round 2.',
-                            'Second round:- Contestants selected to round 2 will be provide props which',
-                            'they have to use while performing on a track given by the crew. They will be',
-                            'judged on how well they are using the prop.',
-                            'Participants have to make their own arrangements for the performance (tracks for the',
-                            'first round, costumes etc;)',
-                            'Time limit is 3 – 4 min',
-                            'Can perform Solo / Duo / Trio (can be Inter gender in Duo &amp; Trio)',
-                            'A single contestant can perform multiple choreos (max 2)',
-                            'Judgement will be based on your performance considering expression, perfection and Co-',
-                            'ordination (for Duo &amp;Trio) ',
-                            
-                        ],
-                contact : ['Subhashini - coe16b029@iiitk.ac.in - 7081618975' ],
-                image:require('../../res/events/dance/clusters.jpeg')
+  },
 
-            },
-            {
-                name : 'Choero Night 2K19',
-                desc : 'An inter college event.Anyone can participate in it',
-                price: ' 1st Prize  ₹5,000/- \
-                         2nd Prize  ₹3,000/-',
-                rules : ['There will be 2 rounds. First round is for selection and second will be a face off',
-                        'Time limit will be 4-5 min.',
-                        'No. of participants=3'
-                        ],
-                contact : ['Subhashini - coe16b029@iiitk.ac.in - 7081618975', 'Narasimha - mdm16b003@iiitk.ac.in - 8331069338'],
-                image:require('../../res/events/dance/choreo.jpeg')
-            },
-        ]
-    },
-    {
-        photography : [
-            {
-                name : 'THEME PHOTOGRAPHY',
-                desc : 'In this event the club will announce a theme.The participants are required to take the best snapshot based on the given theme',
-                prize : ' ₹1,000/-',
-                rules : ['no filters should be used',
-                        'Editing/Use of editing apps is strictly prohibited',
-                        'the picture should be captured only during the time period decided by the club',
-                        'late submission shall not be entertained',
-                        'multiple or fake submissions may lead to disqualification of the participant if found',
-                        'if the club finds any discrepancies, it has the right to disqualify the concerned participant without ',
-                        'take a selfie at the shooting spot for proof'],
-                contact : [
-                    'ES Nikhil - 7997625996',
-                    'M. Harsha - 9948775727'
-                    ],
-                image:require('../../res/events/photography/photostar.jpg')
-            },
-            {
-                name : 'CLICKS` CHRONICLE',
-                desc : 'A series of random pictures will be given by the club during the event.The participants should use their creative abilities to create a meaningful story/theme out of the given series of abstract images.',
-                price : ' ₹750/-',
-                rules : ['The competition will be held on the spot',
-                        'use of electronic devices is not permitted',
-                        'access to internet will be denied during the event',
-                        'creative work will be appreciated'],
-                
-                contact : [
-                    'ES Nikhil - 7997625996',
-                    'M. Harsha - 9948775727'
-                ],
-                image:require('../../res/events/photography/click_chro.jpg')
-            },
-            // {
-            //     name : 'BEAUTY GAZER',
-            //     prize : ' ₹250/-',
-            //     desc : 'it is an intra college event, The participant who captures the best photograph during the three days of the event will be awarded.',
-            //     rules : ['The photograph should be taken only through mobile camera.',
-            //             'The photograph can be of any category (candid’s, selfies, group photos etc...) but they should be captured only during the fest',
-            //             'no filters should be used',
-            //             'no editing of the photograph is allowed using any photo editing apps',
-            //             'late submission is not entertained',
-            //             'multiple or fake submissions may lead to disqualification of the participant if any found',
-            //             'if the club finds any discrepancies, it has right to disqualify the participant without any permission of the participant',],
-            //     contact : ['ES Nikhil - 7997625996'],
-            //     image:require('../../res/events/photography/beauty.jpg')
-                
-            // },
-            {
-                name : 'Tik - Tok',
-                price : ' ₹800/-',
-                desc : 'The participants have to make a tik- tok video of 15 sec length. It should purely be based on the theme decided by the club.',
-                rules : ['the video should be of best quality',
-                        'All the parameters like expressions, lip sync, timing, camera lighting, etc. ....are considered during judgment.',
-                        'The video should not exceed the time limit.',
-                        'Presenting the best of you within the time limit will be encouraged.',
-                        'Each person has to send 3 videos (rap song, dance, and dialogue).'
-                    ],
-                contact : [
-                    'ES Nikhil - 7997625996',
-                    'M. Harsha - 9948775727'
-                ],
-                image:require('../../res/events/photography/tik-tok.jpg')
-            }
-        ]
-    },
-    {   
-        music:[
-        { 
-            name:'Mega Herz',
-            desc:'The coveted Battle of Bands competition – Mega Herz is here. Register your Band and steal the stage with your aura at Solasta !',
-            price: '₹10,000/- ',
-            
-            rules: [ 'For the purpose of this competition,a band is defined as 3 or more members with atleast 2 members playing instruments',
-                    'Bands must bring their own equipment (guitars, amps,keyboards, etc.).However microphones and a drum set will be provided.',
-                    'Bands will have 15-20 minutes to set up, perform and disband.(• For every minute exceeding the 20-minute limit, the band will be penalized 5 points from their total score)',
-                    'Only the band members listed on the registration form will be allowed on stage.',
-                    'A panel of judges will score musicians on a point system. The criteria on which the bands will be judged are explained below.',
-                    'Removal of clothing and usage of obscene language and gestures are stricly prohibited.It will result in the band being disqualified.'
-                    ],
-            contact: ['Caroline - 7550167997',
-                        'Jayanta - 7602797828'],
-            image:require('../../res/events/music/mega_herj.jpeg')
-        },
-        { 
-        name:'RHYTHM AND RIFFS',
-        desc : 'Gear up with your melodious piano notes, awesome guitar Solos , Tremendous Tals of the Tabla and killing Drum Solos Cuz IIITD&M Kurnool presents a great opportunity for all the talented instrumentalists to shine and rock the stage.',
-        price: ' 1st Prize  ₹2,500/- \
-         2nd Prize  ₹1,000/-',
-        
-        rules: [' For the purpose of this competition band is defined as solo or more members with all members playing instruments',
-            ' Bands must bring their own equipment (guitars, amps, keyboards,etc.). Microphones and a drum set will be provided.',
-            ' Bands will have 15 minutes to set up, perform and disband.(• For every minute exceeding the 15-minute limit, the band will be penalized some points from their total score)',
-            ' Only the band members listed on the registration form will be allowed on stage.',
-            ' A panel of judges will score musicians on a point system.',
-            ' Removal of clothing and usage of obscene language and gestures are strictly prohibited.It will result in the band being disqualified.' 
+  {
+    "mech-an-idea":
+    [
+      {
+        name:'construss',
+        desc:'To design a truss/suspension bridge using popsicle sticks, cotton strings\
+        and adhesive(without using any strengthening coating) that can sustain the\
+        maximum possible load and can satisfy all the understated constraints.',
+        price:'Not Given',
+        rules:
+        [
+          'Dimensions of the bridge like height, width, length of deck etc. will be given with tolerance limits.',
+          'Weight should be within the specified limit.',
+          'Bridge should be very stable on the arena made for testing.'
         ],
-        contact: ['Caroline - 7550167997',
-                    'Jayanta - 7602797828'],     
-                    image:require('../../res/events/music/rythm.jpeg')   
-        },
-        {
-        name:'Harmonize',
-        desc:'If you’re a professional performer, a wannabe vocalist or even just a casual shower singer, this is the perfect opportunity for you.',
-        price: ' 1st Prize  ₹1,000/- \
-         2nd Prize  ₹500/-',
-        rules:[ ' Participant may play an instrument (guitar,piano etc., ) or karaoke to back their vocals.',
-        ' However if the participant opts for an instrument, he/she has to play the instrument and sing by himself/herself during the performance i.e a second instrumentalist to support the vocalist won`t be permitted.',
-        ' The participant must bring their own karaoke or instruments',
-        ' Participants can register on the website or On-spot.',
-        ' Obscenity in any form on stage is strictly prohibited.',
-        ' Participants will be judged based on their vocal ability, stage presence, musicality and versatility.',
-        ' The judge’s decision will be final and is not open to review.' ],
-        contact:[
-            'Caroline - 7550167997',
-            'Jayanta - 7602797828'
+        contact:
+        [
+          'Rahul Raj- 7258008940' ,
         ],
-        image:require('../../res/events/music/harmonize.jpeg')
-    },
-    {
-        name:'Karaoke',
-        desc:'It`s an informal event in which you can showcase your talent by singing your heart out.\
-             Hope you won`t miss such a great chance.',
-        price:' no prizes ',
-        rules:[
-            'You will be charged only an amount of ₹25 for half an hour',
+        image:require('../../res/events/mech/construss.jpg'),
+        reg_link:'Not Given'
+      },
+      {
+        name:'FdotS',
+        desc:'A 2-tier event which tests your recollection and practical application of concepts of mechanics and aerodynamics.',
+        price:'Not Given',
+        rules:
+        [
+          'Round 1: CROSSWORD',
+          'Teams of 3 will solve the given set of clues to identify the words in the crossword and plug them in appropriately. Qualification to round 2 will be based on score from round 1.',
+          'Round 2: AEROMODELLING',
+          'Selected teams will be asked to prototype an aerial vehicle with some specified constraints including time span. The parameters for judging will not be disclosed till the results.'
         ],
-        contact:[
-            'Caroline - 7550167997',
-            'Jayanta - 7602797828'
+        contact:
+        [
+          'Mukesh - 9791051783'
         ],
-        image:require('../../res/events/music/karaoke.jpg')
-    }
+        image:require('../../res/events/mech/FdotS.png'),
+        reg_link:'Not Given'
+      },
+      {
+        name:'The CAD Competition',
+        desc:'To be conducted at SOLASTA 2020. Registrations are open and people are flooding the counters to get to compete in this event and win exciting rewards. You too can earn Some easy money by registering before 11:59 PM, 11th march',
+        price:'Not Given',
+        rules:
+        [
+          'The event is going to be conducted in 2 divisions namely:',
+          'DIVISION 1:',
+          'Aimed for people who can sketch in CAD software(like our 1st years/2D modelling).',
+          'DIVISION 2:',
+          'Aimed for people who can design in 3D CAD softwares.'
         ],
-    },
-    {
-        drama:[
-            {
-                name:'Befikr',
-                desc:'Blow the theatrical fire and show your play',
-                price:' ₹3,000/-',
-                rules:['Team Size: 02-15(including all performers).',
-                'Judging Criteria: Acting, Timing, Costume, Stage Usage, Props,Script, Flow of Play, Overall Impact.',
-                'Time limit: 15 min (+5 min setup time).',
-                'The play can be presented in any language.',
-                'Judges have the right to stop your performance in between.',
-                'The decision of the judges will be final and binding.',
-                'pre-recorded music should be brought in a pen drive in .mp3 format only.',
-                ],
-                contact:['Akash - 7033573970','ashwani - 7985054889'],   
-                image:require('../../res/events/drama/befikr.jpg')
-            },
-            {
-                name:'16 FRAMES',
-                desc:'16 Frames ,the name with a story in it.',
-                price:'₹1,000/-',
-                rules:['Duration of the movie should be within 7-10 minutes.',
-                'The short movie must be produced after 08-mar-2019.',
-                'The movie should be suitable for all audiences',
-                'The organisers decision will be final.',
-                'Top 5 films will screened for the audience',
-                    ],
-                contact:['Akash 7033573970','Pradyuman -8851042069'],   
-                image:require('../../res/events/drama/16frame.jpg')
-            },
-            {
-                name:'open mic',
-                desc:'Dont shush your inner voice',
-                price:'₹1,000/-',
-                rules:['The event is focused on performance arts like poetry, spoken word, a short tale , stand-up comedy(* with no vulgarity), etc.',
-                'DON’T talk loudly over a ballad. Everyone chats, just be respectful about it.',
-                'DO have fun! If it`s not fun, what`s the point?',],
-                contact:['Ashwani -7985054889'],  
-                image:require('../../res/events/drama/open_mic.jpg') 
-            },
-            {
-                name:'QURIOSITY',
-                desc:'Discover,Share,Grow,Repeat',
-                price:'₹1,000/-',
-                rules:['Quiz will be a team event(2 or 3 )',
-                'Time alloted & marks/question for each round of the competition will be declared before hand',
-                'Quiz master is god .He has the final say.',
-                'Quiz rules & regulation will explained on the event day',
-                    ],
-                contact:['Akash -7033573970'],  
-                image:require('../../res/events/drama/quiz.jpg') 
-            },
-            {
-                name:'Bussiness challenge',
-                desc:'IT’S NOT ABOUT IDEAS. IT’S ABOUT MAKING IDEAS',
-                price:'₹1,500/-',
-                rules:['Maximum Initial Investment we will provide : Rs 500- 1000 (provided you show us bill receipts) ',
-                'you are supposed to return the investment after the completion of the event .',
-                'The one who gets the maximum amount of profit will be declared as the winner .',
-                
-            ],
-                contact:[' sravya - 8106346650','ashwani -7985054889'],
-                image:require('../../res/events/drama/business_chall.jpg') 
+        contact:
+        [
+          'Sathyajith - 6304134214'
+        ],
+        image:require('../../res/events/mech/CAD.png'),
+        reg_link:'Not Given'
+      }
+    ]
+  },
 
-            },
-            {
-                name:'Stay Hungry',
-                desc:'EACH PERSON IS PROVIDED WITH CERTAIN AMOUNT OF FOOD.WHOEVER EATS MORE QUANTITY IN GIVEN TIME IS DECLARED AS WINNER ',
-                price:'₹1,000/-',
-                rules:['THE CHALLENGER MAY NOT MAKE ANY FOOD SUBSTITUTIONS OR MODIFICATIONS. DON’T LIKE MUSHROOMS? TOO BAD.',
-                'THE CHALLENGER SHOULD EAT THE ENTIRE FOOD WITHOUT ANY HELP FROM OTHERS.',
-                    ],
-                contact:['Sravya -8106346650','ashwani -7985054889'],
-                image:require('../../res/events/drama/stay_hungry.jpg') 
 
-            },
-
-            // {
-            //     name:'WOLF NIGHT',
-            //     desc:'IT never troubles the wolf how many the sheep may be.',
-            //     price:'Gifts hamper ',
-            //     rules:['A team consists of 3 wolves a doctor a police ,a dictator and the remaining villagers ',
-            //     'No of members in a team:9-11  contact ',
-            //     ],
-            //     contact:['sravya -8106346650','pradyuman-8851042069'],
-            //     image:require('../../res/events/drama/quiz.jpg') 
-                
-            // },
-            {
-            name:'culinary',
-            desc:'simple ingredients, treated with respect..put them together and you will always have a great dish.',
-            price:'₹500/-',
-            rules:['use of fire is not allowed(*kettle allowed )',
-                    'We will just provide basic ingredients',
-                    'No storage/refrigeration will be provided.',
-                    'Proper hygiene has to be maintained while cooking.',
-                    ],
-            contact:['sravya -8106346650','ashwani -7985054889',],
-            image:require('../../res/events/drama/culinary.jpg') 
-            },
-            {
-            name:'Adrenaline rush',
-            desc:'upload a thrilling video showcasing your talent',
-            price:'₹500/-',
-            rules:['It is an individual as well as a group dance event; each group can contain a maximum 10',
-                'Duration of movie should be confined to 5-7minutes.',
-                'Decision of the judges and the coordinators will be considered as final',
-                ],
-            contact:['Akash -7033573970','ashwani -7985054889','Pradyuman -8851042069',],
-            image:require('../../res/events/drama/adre_rush.jpg') 
-            },
-        ]
-    },
-    {
-        misc:[
-            {
-                name:'MI 10.07.18',
-                desc:'The game:\
-                Located on a hill top of Kurnool , this 120 minutes cinematic\
-                adventure combines the unique world of Sherlock with the very best\
-                of detective games.\
-                We need Sherlock.His brilliance is required.\
-                Volunteers with sharp eyes, keen wits and a hunger for adventure.\
-                Can you step into the shoes of a legendary detective?',
-                price:'₹3,000/-',
-                rules:[
-                    'max of 2 in a team',
-                    'game consists of 2 rounds',
-                    'round 1: Quiz :1Hr.:this round is to test your IQ and smartness.',
-                    'round 2: Onsite event :2Hr.: the top 5 selected teams are allowed for',
-                    'round 2. Participants are shown 3 murder/suicide spots . They should',
-                    'investigate the scene and collect all the evidences.Then the\
-                    participants will be introduced to 5 suspects . They should identify the\
-                    murderer and present the proof to the judiciary .',
-                    'cash prize may increase',
-                    'please follow our Instagram and Facebook pages and answer the questions to get bonus points for round 1 ',
-                    'insta :@mi10_07_18',
-                    'facebook : @mi100718'
-                ],
-                contact:[
-                    'Aakash Singh - 7358852854',
-                    'Venkatesh Desai - 9894322678'
-                ],
-                image:require('../../res/events/misc/sherlock.jpg'),
-            },
-            {
-                name:'INSTYLE-2.0',
-                desc:'INSTYLE is a fashion event to showcase your skills, personality and prove yourself as a fashion icon.',
-                price:'₹ 25k/-',
-                rules:[
-                    'DURATION: 3 hrs (Approximated for 15 participants).',
-                        'Entry Fee: 100',
-                        'Prize money: prizes worth 25k+',
-                        'It comprises of 4 rounds.',
-                        'ROUND-1:Ramp walk (INTRO)',
-                        'ROUND-2:Quora',
-                        'ROUND-3:Surprise task(Team activity) Duration:8 min(only for activity)',
-                        'ROUND-4:Talent Round',
-                        ' ',
-                        'ROUND-1:',
-                        ' In this round, each participant will walk on the\
-                        stage and introduce themselves to the audience\
-                        within 120 sec.',
-                        
-                        'ROUND-2:',
-                        ' In this round, each participant will be asked a\
-                        set of questions and they must answer them\
-                        wittily. (Not only questions and answers,\
-                        The concept may change).',
-                        
-                        'ROUND-3:',
-                        ' In this round, there will be a team work for all\
-                        the participants on the stage. This is the surprise\
-                        round.',
-                        
-                        'ROUND-4:',
-                        ' A REALLY GREAT TALENT FINDS ITS\
-                        HAPPINESS IN EXECUTION”,showcase your\
-                        hidden talents in this round.',
-                        
-                        'NOTE:The best performer will be considered as\
-                        Mr and Miss Instyle.\
-                        And the next two best performers will be\
-                        considered as Runner Ups.',
-                        ' ',
-                        'RULES AND REGULATIONS:',
-                        
-                        '1. Participants are requested to bring there own\
-                        props/materials for the talent round.',
-                        '2. Participants will be judged on the basis of their\
-                        confidence, spontaneity and attitude on the stage.',
-                        '3. Any action of the participant should not deride\
-                        any race, caste, colour, creed or nationality.',
-                        '4. Decision of the judges will be final and binding.',
-                        '5. The participant have to complete their task in\
-                        given chance no extra chances will be given\
-                        with/without recommendation in any case.',
-                        '6. Time is strictly followed.',
-                        '7. Violation of any above mentioned rules will\
-                        result in disqualification of the participant.'
-                ],
-                contact:[
-                    'G SAI SUMANTH - 9121204746',
-                    'Niharika - 9441043843',
-                    'Ramya - 9629419185'
-                ],
-                image:require('../../res/events/misc/dn_style.jpg')
-
-            },
-            {
-                name:'KGF(Kurnool Gold Fields)',
-                desc:'Slide into the oblivion of treasure hunt and loot the bounty.',
-                price:'₹2,000/-',
-                rules:[
-                ' Time to dust-off your out of the box thinking.',
-                '  Each Team should contain 4 members.',
-                ' Rules and Regulations will be informed on the spot.',
-                'Exciting recipes of challenges and riddles awaiting you.',
-                ' Hurry up! (Limited Selections).'],
-                contact:[
-                    'Surya Teja - +91 8341100972',
-                    'Chaitanya - +91 7659908588',
-                ],
-                image:require('../../res/events/misc/kgf.jpg')
-
-            },
-        ]
-    },
-    {
-        emc:[
-            {
-                name:'Pulse',
-                desc:'Round 1: Quiz :A set of questions related to electronics will be given to the participants\
-                .The format of the quiz is objective type with each question carrying +3 points and\
-                wrong answer carrying -1 point.Top 7 teams will qualify to next round. \
-                Round 2: Prototype it :The selected teams will be given a set of electronic components\
-                and a problem statement . They should make the required system within the stipulated time.The first\
-                5 teams to come up with a successful solution will qualify for the final round.\
-                Round 3: Identify the Black Box: A circuit will be concealed in a blackbox.Participants\
-                are allowed to vary the input signal entering that circuit.Based on the output it provides they\
-                are expected to identify the hidden circuit.The 3 quickest teams to identify will be declared\
-                as winners.',
-                price:'₹2,250/-',
-                rules:[
-                    'A team should consist of Max.4 and Min.2.',
-                    'Any kind of malpractices by the team will lead to disqualification.',
-                    'This competition will be open for every one who is passionate about electronics.',
-                    'No separate entry fees.',
-                    'The prize money for winner,1st runner up and 2nd runner up will be Rs.1000,Rs.750,Rs.\
-                    500.'
-                ],
-                contact:[
-                    'AAKASH SINGH- 7358852854'
-                ],
-                image:require('../../res/events/emc/pulse.jpg'),
-            },
-            {
-                name:'Mad Bots',
-                desc:'Similar to the pen fight we played in our childhood but an advanced version.\
-                Design a manual(only wireless) or automatic robot to knock the opponent bot down the table.',
-                price:'₹4,000/-',
-                rules:[
-                    'ROUND :1(DAY-1)\
-                    Two bots fight at once and the winnerr walks to the next round while the looser walks out.\
-                    ROUND:2(DAY-1){Time Out Mode}\
-                    Two bots fight at once. Four beasts with the least knock out times shall triumph.\
-                    ROUND :3(DAY-2){Rob Mode}\
-                    All 4 bots fight at once, no time limit, last bot standing will seize the glory. \
-                    PS: Round 2 finalists may vary their bot specifications\
-                    without violating the rules.\
-                    ',
-                    'BOT SPECIFICATIONS:\
-                    Dimensions should not exceed 50cm x 50cm (l x b)\
-                    No height limitation.\
-                    Weight of the bot should not exceed 9kg.\
-                    Bot should be wireless.\
-                    No size constraints for external controller.',
-                    'Input voltage to bot should not exceed 12 volts.' ,
-                    'Bot will be inspected before entry and should not exceed\
-                    the limit.'
-                ],
-                contact:[
-                    'SURYA TEJA.B\
-                    edm17b031@iiitk.ac.in\
-                    8341100972.'
-                ],
-                image:require('../../res/events/emc/mad_bot.jpg')
-
-            },
-            {
-                name:'Robo Race',
-                desc:'“More speed, more power with minimum time and perfection” Design a ROBOT that has the capacity to cover maximum distance in the shortest possible time. Cross\
-                the hurdles and be one of the best opponents. Think your robot can overcome any obstacle-big or\
-                small in the least of time. If so get it on the track and let the game begin. And bear in mind that\
-                maximizing RPM does not make you winner.Winners are those who have good presence of mind, sharpness and practice.',
-                price:'₹5,000/-',
-                rules:[
-                    'ROBOT SPECS:',
-                    'The maximum dimension of the robot can be 50cm*50cm*50cm(lxbxh)',
-                    'The robot may be wired or wireless',
-                    'The length of the wire(for wired bots) should be long enough to cover the whole track and wire should remain slack during the entire run ',
-                    'Max weight should not exceed 9 kg',
-                    'power supply will be allowed upto 12V and readymade parts are not allowed',
-                    'RULES AND REGULATION',
-                    'This is a racing event, so the fastest and most balanced robot will win',
-                    'Robot should be as per the given specs. ',
-                    'Each team can have upto 6 members'
-                ],
-                contact:[
-                    'V.Sainath\
-                    Email: edm17b019@iiitk.ac.in'
-                ],
-                image:require('../../res/events/emc/robo.jpeg') 
-            },
-           
-
-        ]
-    },
-    {
-        mech:[
-            {
-                name:'F dot s',
-                desc:'We do not emphasize on size, for you to bag a prize\
-                A two tier event for teams of three',
-                prize:'₹3,500/-',
-                rules:['Round 1A:',
-                'A quiz where all solutions need not be written (i.e participants can express thesolutions pictorially)',
-                'Quiz shall be conducted on an individual basis and team members` scores will be averaged.',
-                'TOP 6 TEAMS WILL BE ELIGIBLE FOR THE BONUS ROUND AND FINALS',
-                'Mantle-dismantle (bonus round):',
-                'In this round the participating teams will have to assemble a dismantled mechanical device within the stipulated time',
-                'The type of device will be spot informed',
-                'RAPID PROTOTYPING (FINALS)',
-                'The selected participants will choose the tools and components required from a provided assortment to build the required prototype',
-                'The details for prototyping will be informed on spot.'],
-                contact:['Mukesh - +91 9791051783',
-                'Girish J.P. - +91 9503718321'],
-                image:require('../../res/events/mech/mech_an.jpg'),
-            }
-        ]
-    },
-    {
-        Workshop:[
-            {
-                name:'Rubik`s Cube Workshop',
-                desc:'This workshop invites all puzzle solving enthusiasts who are interested in learning\
-                how to solve a 3x3x3 Rubik’s cube , how to decrease their solving time and master\
-                the art of solving a 3x3x3 Rubik’s cube in just a few seconds.',
-                price:'₹3,000/-',
-                rules:['WORKSHOP DETAILS:',
-                'Each individual will be provided with the workshop kit comprising of the study\
-                material and a 3x3x3 Cube for FREE of cost.',
-                'The workshop will be held in 2 sessions each of 2-3 hours being held on 8th March and\
-                9th March.',
-                'The Registration fees for the cubing workshop will be Rs.150/- per person.'],
-                contact:['Paras Varshney, Nikhil Gajangi\
-                Email: edm16b018@iiitk.ac.in'],
-                image:require('../../res/events/workshop/rubics.png'),
-            },
-            {
-                name:'DANCE WORKSHOP',
-                desc:'WORK SHOP WILL BE CONDUCTED BY THE CHROREOGRAPHER ON THE THIRD DAY OF THE FEST WHICH IS 10TH MARCH 2019 ',
-                price :'nil',
-                rules:[
-                    'registration fee rs 100',
-                    'SHOES ARE MANDATRORY AND COMFORTABLE CLOTHES SHOULD BE WORN'],
-                contact:[
-                    'Narasimha - mdm16b003@iiitdm.ac.in - 8331069338',
-                ],
-                image:require('../../res/events/workshop/d_workshop.jpg')
-            },
-            {
-                name:'ZWaG oN',
-                desc:'Zumba fitness workshop involves dance and aerobic movements performed to energetic music. We enjoy burning up the calories with some Bollywood twists.\
-                    There will also be a "combat" at the end for the trainees to grab away the cool prizes.',
-                price:'₹ 1200',
-                rules:[
-                    'Time & Venue: 08 March (9AM - 12AM) | CR1',
-                    'Registration Fee: 50/-',
-                    'The dress code and footwear for the workout isn`t any particular, the participant can dress in their own comfort.',
-                    'Refreshments are arranged by the volunteers during the session in the break.',
-                    'For the combat, the participant must compete as an individual. There will be no group participation.',
-                    'Workout song in the combat is of candidate`s choice (Duration: 2-6 min) ',
-                    'The winner will be chosen by the judge based on your originality and spontaneity towards Zumba.',
-                    'further rules will be told at event'
-                ],
-                contact:[
-                    'Vempati Lakshmi Sravani (edm17b028@iiitk.ac.in) | Ph: 6301338311',
-                    'Akkinapalli Gayathri (coe17b028@iiitk.ac.in) | Ph: 7013979231'
-                ],
-                image:require('../../res/events/workshop/zwag.jpg')
-            },
-            {
-                name:'Android App Development',
-                price: '  ',
-                desc:'Interactive lecture sessions where participants will be able to develop their own android applications',
-                rules:[
-                    'workshop fee: ₹150 ',
-                    'TOPICS COVERED: ',
-                    '   Introduction to Mobile Application Development',
-                    '   Introduction to Google Firebase', 
-                    '   Integration of android app with Google Firebase',
-                    '   Building the Application Framework ',
-                    '   Designing User Interfaces ',
-                    '   Working with the real-time database of firebase',
-                    'PRE-REQUISITES: ',
-                    '   Attendees must bring their own laptops',
-                    '   Android studio should be installed prior to the workshop',
-                    '   Internet facility should be arranged by attendees themselves',
-                    '   Installation guide link - ',
-                    'https://drive.google.com/file/d/133wVuPjMwZraW2gBrbp0cZGn5KzpW7EI/view?usp=drivesdk'
-                ],
-                
-                contact:[
-                    'Ashutosh - 8320758513',
-                    'Nischay - 8008457009'
-                ],
-                image:require('../../res/events/workshop/android.png'),
-
-            }
-        ]
-    },
+  {
+    Workshop:
+    [
+     {
+      name:'Cyber Security',
+      price: '  ',
+      desc:'A hands on session on cyber-security', 
+      rules:[
+          'workshop fee: ₹300',
+          'TOPICS COVERED: ',
+          'Introduction to Ethical Hacking Based on Cyber Crimes Attacks',
+          ' Information Gathering (foot printing & scanning methodologies)',
+          'System/Windows Hacking',
+          'Hacking Wireless Networks',
+          'Website Hacking and Security Standards',
+          'Hacking Mobile Platforms',
+          'Social Engineering',
+          'Hacking By Key-loggers, Trojans, Backdoors & Viruses',
+          'Cyber Crime Awareness and Case Study',
+          'Payment details',
+          'Cash to Volunteers (Gouse Mohammad, Gayathri Akkinapalli)',
+          'GPay / Phonepay :- 7013778607 Account Name: Gouse Mohammad',
+          'Send the event name as description for the payment',
+          'Note: Proof of the payment are mandatory for you to be allowed to the workshop.',
+      ],
+      contact:
+      [
+        'Anshuman singh- 9511028795' ,
+        'gayathri - 7013979231',
+      ],
+      image:require('../../res/events/workshop/cyber.jpg'),
+      reg_link: "www.google.com"
+      }
+    ]
+  },
 ]; 
 
 export default event_det();

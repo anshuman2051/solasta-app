@@ -1,27 +1,8 @@
 import React, { Component } from 'react';
 import {Link} from 'react-router-dom';
-import Login from '../login/login';
 import fire from '../../config/fire';
 import 'firebase/auth';
 import './nav.css';
-import {
-    Collapse,
-    Navbar,
-    NavbarToggler,
-    NavbarBrand,
-    Nav,
-    NavItem,
-    NavLink,
-    Container,
-    Row,
-    Col,
-    Jumbotron,
-    Button,
-    UncontrolledDropdown,
-    DropdownToggle,
-    DropdownMenu,
-    DropdownItem 
-  } from 'reactstrap';
 
 
 class NavBar extends Component {
@@ -67,9 +48,9 @@ class NavBar extends Component {
         const bar1 = document.getElementsByClassName("bar")[0];
         const bar2 = document.getElementsByClassName("bar")[1];
         const bar3 = document.getElementsByClassName("bar")[2];
-        bar1.id = bar1.id == "" ? "bar1" : "";
-        bar2.id = bar2.id == "" ? "bar2" : "";
-        bar3.id = bar3.id == "" ? "bar3" : "";
+        bar1.id = bar1.id === "" ? "bar1" : "";
+        bar2.id = bar2.id === "" ? "bar2" : "";
+        bar3.id = bar3.id === "" ? "bar3" : "";
     
       //   setting delay for displaying the text
         setTimeout(()=>{
@@ -96,6 +77,9 @@ class NavBar extends Component {
                 <span className="bar" id=""></span>
               </span>
               <ul id="nav-items">
+                <li>
+                  <a className="nav-link text-light" style={{fontFamily:'Exo'}} href="/">Home<span className="sr-only">(current)</span></a>
+                </li>
                 <li>
                   <a className="nav-link text-light" style={{fontFamily:'Exo'}} href="/#about-us">About Us<span className="sr-only">(current)</span></a>
                 </li>
