@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Card from './teamMember';
 import team_det from './team_details';
 import NavBar from '../../header/NavBar';
+import './ourTeam.css'
 
 class ourTeam extends Component {
     constructor(props){
@@ -13,10 +14,12 @@ class ourTeam extends Component {
     render() {
         let data = this.state.info;
         return (
-            <div className='mt-1 pt-3 pb-5' style={{backgroundColor:'#f2f2f2'}}>
+            <div id = "our-team-heading" className='mt-1 pt-3 pb-5' style={{backgroundColor:'#f2f2f2'}}>
                 <NavBar/>
-                <h1 className=' ml-5 font-weight-bold centrehold' style={{fontFamily:'Exo'}}>Our Team</h1>
-                <hr/>
+                <div style={{margin: '0', backgroundColor: '#1c1656', padding: '1rem'}}>
+                <h1 className=' ml-5 font-weight-bold centrehold' style={{fontFamily:'Exo', color: 'white'}}>Our Team</h1>
+                </div>
+        
                 <div className='container-fluid px-0  row '>
                     {data.map(inf => <Card key={inf.name} info={inf} />)}
                 </div>
