@@ -13,8 +13,10 @@ class Footer extends Component {
                             <div className="newmargin coders">
                             <h5 className="margindon" style={{fontFamily:'Exo'}}>Anshuman Singh <br/>
                                 coe17b027@iiitk.ac.in</h5>
-                            <h5 className="margindona" style={{fontFamily:'Exo'}}>Sahil Mishra <br/>
-                                coe17b034@iiitk.ac.in</h5>
+                            <h5 className="margindona" style={{fontFamily:'Exo'}}>Shubham Negi<br/>
+                                coe17b030@iiitk.ac.in</h5>
+                            <h5 className="margindona" style={{fontFamily:'Exo'}}>Shoyab Azmal<br/>
+                                coe17b006@iiitk.ac.in</h5>
                             </div>
                            
                         </div>
