@@ -24,10 +24,10 @@ h1, p {
   font-family: 'zedi', arial;
   font-size: 8vw;
   color: #C5C6C7;
-  position: absolute;
-  bottom: -22rem;
+  position: fixed;
+  bottom:400px;
   left: 11%;
-  z-index: 4;
+  z-index: 1;
 }
 #moon{
 position: absolute;

@@ -7,7 +7,8 @@ class TopHeader extends Component {
     super();
     this.state = {
       style: {
-        transform : 'translate(0px,0px)'
+        transform : 'translate(0px,0px)',
+        height:'400px'
       }
     };
   }
@@ -17,18 +18,30 @@ class TopHeader extends Component {
    let scrollDist = window.scrollY;
    setTimeout(()=>{
     this.setState({style: {
-          transform : `translate(0px,${scrollDist*0.5}px)`
+          transform : `translate(0px,${scrollDist*1}px)`
         }})
    },20);
   //  console.log(evt.wheelDelta);
    image.style.transform = this.state.style;
  }
+
+//  for changing pos. of solasta text
+ componentDidMount(){
+   setTimeout(()=>{
+   const image = document.getElementById("base-land-back");
+   let high= image.getBoundingClientRect().height ;
+   if(window.innerWidth > 720)
+    high = high-60;
+   this.setState({transform:this.state.transform,height:high});
+   },200)
+
+ }
   render() {
     const image = require('../res/transparent-glow.png');
     return (
       <div onWheel={this.scroll} id='root-header'>
-          <img id="solasta-img" src={image} alt="solasta-img"/>
-      	  <div className="fest-name" style={{borderBottom:"8px solid "}}>SoLASTA</div>
+          <img  id="solasta-img" src={image} alt="solasta-img"/>
+      	  <div className="fest-name" style={{borderBottom:"8px solid ",bottom:this.state.height}}>SoLASTA</div>
           <Particle/>
           <div className="background" >  
           <div id='moon' style={this.state.style}>

@@ -16,18 +16,40 @@ class Body extends Component {
         color: "wheat",
     };
 
+    removeAbout = ()=>{
+        if(window.innerWidth>=720)
+        return(
+            <AboutUs/>
+        );
+    }
+    showWarn = ()=>{
+        if(window.innerWidth<=720){
+            return(
+                <div class="bs-example"> 
+                    <div class="alert alert-success alert-dismissible fade show mb-0" style={{zIndex:'9',position:'fixed',left:'15%'}}>
+                        <center><strong>Warning!</strong> Best viewde in PC on chrome >= 60.0</center>
+                        {/* <button type="button" class="close" data-dismiss="alert" onClick={this.close}>&times;</button> */}
+                    </div>
+                </div>
+            );
+        }
+    }
 
+   
     render() { 
         return ( 
 
             <div className="root-body " style={{position:'relative'}}>
+                {/* bs alert for size issue */}
+                {this.showWarn()}
+
                 <NavBar/>
                 <TopHeader/>
                 <Clock/>
-
-
                 {/* about us */}
-                    <AboutUs/>
+                {
+                    this.removeAbout()
+                }
             
 
         {/* div for using carousel for past events */}
