@@ -386,6 +386,131 @@ const event_det = ()=>
       }
     ]
   },
+  {
+    Photography:
+    [
+      {
+        name:'Theme Photography',
+      price: '1000',
+      desc:'A theme is an overarching concept that a photographer adheres to. Using photography\
+      themes is a great way to inspire creativity. So, add focus to your creative energy and\
+      snap the best on the below-mentioned themes to grab the prize money!',
+      rules:[
+        'It is an online event',
+        'THEMES:',
+        '1. Monochrome ',
+        '2. Culture of India ',
+        '3. Street Photography' ,
+        '4. Architectural Photography',
+        '5. Abstract Photography',
+        'Not more than 3 photos will be accepted. All 3 photos should be from 3 different\
+        themes mentioned.',
+        '1 pic will be accepted on 1 theme.',
+        'No restriction on the camera being used.',
+        'Entries found to be copied from the internet or other sources will be disqualified.',
+        'Photographs should be clicked in JPEG format.',
+        'Photos should be without any borders, frames and watermarks.'
+      ],
+      contact:
+      [
+        'Lakshmi Sravani Vempati (63013 38311)',
+        'Satya Nikhil Krishna Enugula (79976 25996)'
+      ],
+      image:require('../../res/events/photography/theme.png'),
+      reg_link: "https://forms.gle/1V35agZ3NK8AvVc19"
+      },
+      {
+        name:'Huge Selfie',
+      price: '500',
+      desc:'It’s so simple! Participants just have to click a selfie. Twist is that the selfie with the\
+      maximum number of people in the pic wins! So, make sure you grab people and create\
+      a good shot of many smiling faces.', 
+      rules:[
+        'It is an offline event',
+        'No selfie sticks allowed',
+        'All the participants must click the pic with the same mobile phone (provided by\
+          the organizer).',
+          'Out of all the snaps of one participant, only one submission is allowed.',
+          'Neither furniture to be damaged nor people to be harmed while you are trying to\
+          create a huge selfie.'
+      ],
+      contact:
+      [
+        'Lakshmi Sravani Vempati (63013 38311)',
+        'Satya Nikhil Krishna Enugula (79976 25996)'
+      ],
+      image:require('../../res/events/photography/selfie.png'),
+      reg_link: "https://forms.gle/1V35agZ3NK8AvVc19"
+      },
+      {
+        name:'#poser',
+      price: '500',
+      desc:'A pair of photographer and a poser can participate in this event. While one poses for a\
+      product (given by the organizer), the other should create a good shot that shows off\
+      product and also features the poser. The event goes like you are in a photo shoot where\
+      the participating pair is a brand ambassador and a cameraman.', 
+      rules:[
+        'No restrictions on camera being used',
+        'Only five captures are allowed, out of which one clean shot with well pose can be\
+        submitted.',
+        'The participating pair shouldn’t take much time for posing and clicking.',
+        'Brand of the product should also concentrate for the shot, not just the poser.'
+      ],
+      contact:
+      [
+        'Lakshmi Sravani Vempati (63013 38311)',
+        'Satya Nikhil Krishna Enugula (79976 25996)'
+      ],
+      image:require('../../res/events/photography/poser.png'),
+      reg_link: "https://forms.gle/1V35agZ3NK8AvVc19"
+      },
+      
+      {
+        name:'College Drama ',
+      price: '500',
+      desc:'Participants should submit photographs taken outdoors i.e., your best shots of our\
+      college, displaying elements like infrastructure, plants or routines at our college or\
+      close-ups of natural scenes on our hills. Shoot the best out of our college and submit us\
+      to win!',
+      rules:[
+        'It is an online event',
+        'Only one submission is allowed per each participant.',
+        'The photograph must have segments of only our institute like buildings, plant-life and other features.',
+        'No restriction on the camera being used.'
+      ],
+      contact:
+      [
+        'Lakshmi Sravani Vempati (63013 38311)',
+        'Satya Nikhil Krishna Enugula (79976 25996)'
+      ],
+      image:require('../../res/events/photography/colDrama.png'),
+      reg_link: "https://forms.gle/1V35agZ3NK8AvVc19"
+      },
+      {
+        name:'Pro-edit',
+      price: '500',
+      desc:'Participants need to edit the photographs at it&#39;s best, to look more eye-catching. So,\
+      upgrade the snap till its attractive mark and win the prize money! Photos will be sent\
+      to participants after the registration.', 
+      rules:[
+        'It is an online event',
+        'Each participant can submit one or more entries. But, only one entry per each pic.',
+        'Only provided pics must be edited, other pics are not considered.',
+        'Edits can be used only to improvise the texture of the shots, usage of edits like\
+        borders/frames and others are not allowed.',
+        'No restriction on software/app being used.'
+
+      ],
+      contact:
+      [
+        'Lakshmi Sravani Vempati (63013 38311)',
+        'Satya Nikhil Krishna Enugula (79976 25996)'
+      ],
+      image:require('../../res/events/photography/pro.png'),
+      reg_link: "https://forms.gle/1V35agZ3NK8AvVc19"
+      },
+    ]
+  }
 ]; 
 
 export default event_det();

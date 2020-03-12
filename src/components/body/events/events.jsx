@@ -10,7 +10,7 @@ class Events extends Component {
         this.state={
             cat_window_status: true,
             event_details : event_det,
-            categories: ['Fun','Drama','Music','ThugDancers','DataScience','Coding','mech-an-idea','Workshop'],
+            categories: ['Fun','Drama','Music','ThugDancers','DataScience','Coding','mech-an-idea','Workshop','Photography'],
             // categories: ['Art','Coding','Drama','Dance','Photography','Music','EMC','Mech','Workshops','Miscellaneous'],
             event_cat:'Coding',
         };
@@ -84,6 +84,7 @@ class Events extends Component {
                 const coding_events = this.state.event_details[5].coding;
                 const mech_events= this.state.event_details[6]['mech-an-idea'];
                 const Workshops = this.state.event_details[7].Workshop;
+                const photography= this.state.event_details[8].Photography;
 
                 if(cat === 'Fun')
                     return fun_events.map(evt => <Card category={evt} key={evt.name} />);
@@ -103,6 +104,8 @@ class Events extends Component {
                     return mech_events.map(evt => <Card category={evt} key={evt.name}/>);
                 if(cat === 'Workshop')
                     return Workshops.map(evt => <Card category={evt} key={evt.name} />);
+                if(cat === 'Photography')
+                    return photography.map(evt => <Card category={evt} key={evt.name} />);
 
     }
 
