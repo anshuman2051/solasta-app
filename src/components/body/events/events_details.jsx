@@ -273,9 +273,8 @@ const event_det = ()=>
                 'it is a 3 day event',
                 'will start on 13 March 12:00 P.M',
                 'This is a team participation online event. Maximum 3 members can be there in a team.',
-                'Join the Competition at this link  :',
-                'will be updated soon',
-                '( Take a look at the ReadMe )'
+                '( Take a look at the ReadMe )',
+                'https://docs.google.com/document/d/161m_NdsjgxMfcfG3ylAeMmrmqObeO7yFa2lVboiKVaE/edit?usp=sharing'
             ],
         contact: [
                     'Anshuman singh- 9511028795' ,
