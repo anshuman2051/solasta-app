@@ -29,6 +29,26 @@ const team_det = ()=>[
         mail:'coe17b027@iiitk.ac.in',
         image:require('../../res/team_pic/anshProf.jpg'),
     },
+    {
+        name:'Rohitha',
+        mail:'',
+        image:require('../../res/team_pic/Rohitha.jpg'),
+    },
+    {
+        name:'Karthik',
+        mail:'coe17b019@iiitk.ac.in',
+        image:require('../../res/team_pic/Karthik.jpg'),
+    },
+    {
+        name:'Niharika',
+        mail:'coe17b027@iiitk.ac.in',
+        image:require('../../res/team_pic/Niharika.jpeg'),
+    },
+    {
+        name:'Mrunal',
+        mail:'',
+        image:require('../../res/team_pic/mrunal.JPG'),
+    },
     
 ]
 

@@ -17,7 +17,7 @@ const event_det = ()=>
 
         ],
         image:require('../../res/events/fun/treasure.png'),
-        reg_link:'Not Given'
+        reg_link:'https://forms.gle/1V35agZ3NK8AvVc19'
       },
       {
         name:'Stay Hungry',
@@ -33,7 +33,7 @@ const event_det = ()=>
           'Anupam - 9676644319'
         ],
         image:require('../../res/events/fun/stayHungry.jpg'),
-        reg_link:'Not Given'
+        reg_link:'https://forms.gle/1V35agZ3NK8AvVc19'
       },
       {
         name:'Private Eye',
@@ -48,7 +48,7 @@ const event_det = ()=>
 
         ],
         image:require('../../res/events/fun/privateEye.jpeg'),
-        reg_link:'Not Given'
+        reg_link:'https://forms.gle/1V35agZ3NK8AvVc19'
       },
     ]
   },
@@ -70,7 +70,7 @@ const event_det = ()=>
           '9908491357'
         ],
         image:require('../../res/events/drama/MC.jpg'),
-        reg_link:'Not Given'
+        reg_link:'https://forms.gle/1V35agZ3NK8AvVc19'
       },
       {
         name:'Raise the Curtain',
@@ -86,7 +86,7 @@ const event_det = ()=>
           '9908491357'
         ],
         image:require('../../res/events/drama/raiseCurtain.jpg'),
-        reg_link:'Not Given'
+        reg_link:'https://forms.gle/1V35agZ3NK8AvVc19'
       },
       {
         name:'Spot Light',
@@ -102,7 +102,7 @@ const event_det = ()=>
 
         ],
         image:require('../../res/events/drama/spot.jpg'),
-        reg_link:'Not Given'
+        reg_link:'https://forms.gle/1V35agZ3NK8AvVc19'
       }
     ]
   },
@@ -123,7 +123,7 @@ const event_det = ()=>
 
         ],
         image:require('../../res/events/music/BOB.png'),
-        reg_link:'Not Given'
+        reg_link:'https://forms.gle/1V35agZ3NK8AvVc19'
       },
       {
         name:'Roohaniyat',
@@ -138,7 +138,7 @@ const event_det = ()=>
 
         ],
         image:require('../../res/events/music/ROOHANIYAT.png'),
-        reg_link:'Not Given'
+        reg_link:'https://forms.gle/1V35agZ3NK8AvVc19'
       },    
     ]
   },
@@ -160,7 +160,7 @@ const event_det = ()=>
           '9381690262'
         ],
         image:require('../../res/events/dance/btud.png'),
-        reg_link:'Not Given'
+        reg_link:'https://forms.gle/1V35agZ3NK8AvVc19'
       },
       {
         name:'Hoedown',
@@ -176,7 +176,7 @@ const event_det = ()=>
           '9550681001'
         ],
         image:require('../../res/events/dance/hoedown.jpg'),
-        reg_link:'Not Given'
+        reg_link:'https://forms.gle/1V35agZ3NK8AvVc19'
       },
       {
         name:'Splash It',
@@ -192,7 +192,7 @@ const event_det = ()=>
           '9550681001'
         ],
         image:require('../../res/events/dance/splash.png'),
-        reg_link:'Not Given'
+        reg_link:'https://forms.gle/1V35agZ3NK8AvVc19'
       },
     ]
   },
@@ -215,7 +215,7 @@ const event_det = ()=>
           'B K S Raghuram - 9347358938'
         ],
         image:require('../../res/events/ds/DataScience.jpg'),
-        reg_link:'Not Given'
+        reg_link:'https://forms.gle/hJ2Ct2pZUUQDUx7n9'
       }
     ]
   },
@@ -225,30 +225,33 @@ const event_det = ()=>
         {
         name:'Reverse Coding',
         desc : ' Put on your thinking caps and train your natural neural networks. For reverse coding you will have to recognize the patterns in functions and replicate them. You will be given a set of executable files that accept input and give an output after performing some function on them. Your task is to figure out what function is hidden in the code and replicate it.',
-        price: ' 1st Prize  ₹7,000/-',
+        price: ' 1st Prize  ₹8,000/-',
         rules: [
                 'it is an online event',
                 'total duration is 2 hrs',
+                'Will start on 15th March at 8:00 P.M ',
                 'Code directly from hackerrank platform, which supports over 30 languages.',
                 'All submissions are run through a plagiarism detector. Any case of code plagiarism will disqualify both users from the contest.',
                 'You will be given output of the certain algorithm, you have to find it in accordance with the input test case.',
                 'Join the Competition at this link :',
-                'will be updated soon'
+                'https://www.hackerrank.com/reverse-coding-1583981981'
             ],
         contact: [
                     'Anshuman singh- 9511028795' ,
                     'gayathri - 7013979231',
                 ],
-                image:require('../../res/events/coding/revcoding.jpg'),
-        reg_link: "https://www.hackerrank.com/reverse-coding-1583981981"
+        image:require('../../res/events/coding/revcoding.jpg'),
+        reg_link: "https://forms.gle/8Mh4dex9sLzmcweE8"
     },
     {
         name:'Code ON',
         desc : 'Coding competition  consisting of 5 question.',
-        price: ' 1st Prize  ₹7000/-',
+        price: ' 1st Prize  ₹8000/-',
         rules: [
                 'it is an online event',
+                'total duration will be 3hrs',
                 'coding platform will be codechef',
+                'Will start on 14th March at 8:00 P.M ',
                 'All submissions are run through a plagiarism detector. Any case of code plagiarism will disqualify both users from the contest.',
                 'There will be 5 Algorithmic questions. Participants have to solve them within the given time duration using any one of the programming languages.',
                 'Join the Competition at this link :',
@@ -259,15 +262,16 @@ const event_det = ()=>
                     'gayathri - 7013979231',
                 ],
         image:require('../../res/events/coding/codeon.jpg'),
-        reg_link: "#"
+        reg_link: "https://forms.gle/6diypjqBa2uFJfT28"
     },
     {
         name:'App-A-Thon',
         desc: 'Participants have to choose one among the five given topics and make a Web/Android/IOS application on that topic.',   
-        price: ' 1st Prize  ₹7,000/-',
+        price: ' 1st Prize  ₹8,000/-',
         rules: [
                 'online event',
                 'it is a 3 day event',
+                'will start on 13 March 12:00 P.M',
                 'This is a team participation online event. Maximum 3 members can be there in a team.',
                 'Join the Competition at this link  :',
                 'will be updated soon',
@@ -278,7 +282,7 @@ const event_det = ()=>
                     'gayathri - 7013979231',
                 ],
                 image:require('../../res/events/coding/appathon.png'),
-        reg_link: "https://www.google.com"
+        reg_link: "https://forms.gle/f558LfbBrbwgbXq3A"
     },
     
 ],
@@ -304,7 +308,7 @@ const event_det = ()=>
           'Rahul Raj- 7258008940' ,
         ],
         image:require('../../res/events/mech/construss.jpg'),
-        reg_link:'Not Given'
+        reg_link:'https://forms.gle/hJ2Ct2pZUUQDUx7n9'
       },
       {
         name:'FdotS',
@@ -322,7 +326,7 @@ const event_det = ()=>
           'Mukesh - 9791051783'
         ],
         image:require('../../res/events/mech/FdotS.png'),
-        reg_link:'Not Given'
+        reg_link:'https://forms.gle/hJ2Ct2pZUUQDUx7n9'
       },
       {
         name:'The CAD Competition',
@@ -341,7 +345,7 @@ const event_det = ()=>
           'Sathyajith - 6304134214'
         ],
         image:require('../../res/events/mech/CAD.png'),
-        reg_link:'Not Given'
+        reg_link:'https://forms.gle/hJ2Ct2pZUUQDUx7n9'
       }
     ]
   },
@@ -352,7 +356,7 @@ const event_det = ()=>
     [
      {
       name:'Cyber Security',
-      price: '  ',
+      price: 'certificates',
       desc:'A hands on session on cyber-security', 
       rules:[
           'workshop fee: ₹200',
