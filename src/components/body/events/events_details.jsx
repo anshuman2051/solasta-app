@@ -224,7 +224,7 @@ const event_det = ()=>
     coding : [
         {
         name:'Reverse Coding',
-        desc : ' Put on your thinking caps and train your natural neural networks. For reverse coding will have you recognizing patterns in functions and replicating them. You will be given a set of executable files that accept input and give an output after performing some function on them. Your task is to figure out what function is hidden in the code and replicate it.',
+        desc : ' Put on your thinking caps and train your natural neural networks. For reverse coding you will have to recognize the patterns in functions and replicate them. You will be given a set of executable files that accept input and give an output after performing some function on them. Your task is to figure out what function is hidden in the code and replicate it.',
         price: ' 1st Prize  ₹7,000/-',
         rules: [
                 'it is an online event',
@@ -239,8 +239,8 @@ const event_det = ()=>
                     'Anshuman singh- 9511028795' ,
                     'gayathri - 7013979231',
                 ],
-                image:require('../../res/events/coding/reverse_coding.jpeg'),
-        reg_link: "#"
+                image:require('../../res/events/coding/revcoding.jpg'),
+        reg_link: "https://www.hackerrank.com/reverse-coding-1583981981"
     },
     {
         name:'Code ON',
@@ -248,7 +248,7 @@ const event_det = ()=>
         price: ' 1st Prize  ₹7000/-',
         rules: [
                 'it is an online event',
-                'Code directly from hackerrank platform, which supports over 30 languages.',
+                'coding platform will be codechef',
                 'All submissions are run through a plagiarism detector. Any case of code plagiarism will disqualify both users from the contest.',
                 'There will be 5 Algorithmic questions. Participants have to solve them within the given time duration using any one of the programming languages.',
                 'Join the Competition at this link :',
@@ -259,7 +259,7 @@ const event_det = ()=>
                     'gayathri - 7013979231',
                 ],
         image:require('../../res/events/coding/codeon.jpg'),
-        reg_link: "https://www.google.com"
+        reg_link: "#"
     },
     {
         name:'App-A-Thon',
@@ -355,7 +355,7 @@ const event_det = ()=>
       price: '  ',
       desc:'A hands on session on cyber-security', 
       rules:[
-          'workshop fee: ₹300',
+          'workshop fee: ₹200',
           'TOPICS COVERED: ',
           'Introduction to Ethical Hacking Based on Cyber Crimes Attacks',
           ' Information Gathering (foot printing & scanning methodologies)',
@@ -378,7 +378,7 @@ const event_det = ()=>
         'gayathri - 7013979231',
       ],
       image:require('../../res/events/workshop/cyber.jpg'),
-      reg_link: "www.google.com"
+      reg_link: "https://docs.google.com/forms/d/e/1FAIpQLScme88nwPlFuuOLUiSP5h0fgUNYiNg-yB7rUA1s65Tfd4jW1g/viewform"
       }
     ]
   },

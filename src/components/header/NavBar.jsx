@@ -54,7 +54,7 @@ class NavBar extends Component {
     
       //   setting delay for displaying the text
         setTimeout(()=>{
-          item.style['display'] = item.style['display'] =='block'? 'none' : 'block';
+          item.style['display'] = item.style['display'] ==='block'? 'none' : 'block';
         },300);
       
     }
@@ -81,7 +81,7 @@ class NavBar extends Component {
                   <a className="nav-link text-light" style={{fontFamily:'Exo'}} href="/">Home<span className="sr-only">(current)</span></a>
                 </li>
                 <li>
-                  <a className="nav-link text-light" style={{fontFamily:'Exo'}} href="/#about-us">About Us<span className="sr-only">(current)</span></a>
+                  <a className="nav-link text-light" style={{fontFamily:'Exo'}} href="http://www.solasta.org.in/#about-us">About Us<span className="sr-only">(current)</span></a>
                 </li>
                 <li>
                     <Link className="nav-link text-light" style={{fontFamily:'Exo'}} to="/events">Events</Link>

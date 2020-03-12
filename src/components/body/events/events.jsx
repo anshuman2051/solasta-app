@@ -43,7 +43,7 @@ class Events extends Component {
                     {/*side nav for choosing event type  */}
                     <div className="col-md-3 col-lg-2 shadow-lg border " id='category-chooser' style={{marginTop:"0px",backgroundColor:"#012549"}}>
                         <h2 className="text-light mt-5 mb-3  mx-0 categorycss" style={{fontFamily:'Exo'}}>CATEGORY 
-                            <span className="fa fa-xs fa-close text-light float-right mt-1" style={{cursor:"pointer"}} onClick={this.toggleWindow}/>
+                            <span className="fa fa-xs fa-close text-light float-right mt-1" style={{cursor:"pointer",display:'none'}} onClick={this.toggleWindow}/>
                         </h2>
                         {/* <ul className="text-light" style={{listStyleType:'none'}}> */}
                             {this.renderEventCategory()}
