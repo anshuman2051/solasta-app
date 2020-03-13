@@ -229,7 +229,7 @@ const event_det = ()=>
         rules: [
                 'it is an online event',
                 'total duration is 2 hrs',
-                'Will start on 15th March at 8:00 P.M ',
+                'Will start on 15th March at 9:00 P.M ',
                 'Code directly from hackerrank platform, which supports over 30 languages.',
                 'All submissions are run through a plagiarism detector. Any case of code plagiarism will disqualify both users from the contest.',
                 'You will be given output of the certain algorithm, you have to find it in accordance with the input test case.',
@@ -250,12 +250,11 @@ const event_det = ()=>
         rules: [
                 'it is an online event',
                 'total duration will be 3hrs',
-                'coding platform will be codechef',
-                'Will start on 14th March at 8:00 P.M ',
+                'Will start on 14th March at 9:00 P.M ',
                 'All submissions are run through a plagiarism detector. Any case of code plagiarism will disqualify both users from the contest.',
                 'There will be 5 Algorithmic questions. Participants have to solve them within the given time duration using any one of the programming languages.',
                 'Join the Competition at this link :',
-                'will be updated soon'
+                'https://www.hackerrank.com/code-on-1584039894'
             ],
         contact: [
                     'Anshuman singh- 9511028795' ,
