@@ -49,6 +49,16 @@ const team_det = ()=>[
         mail:'',
         image:require('../../res/team_pic/mrunal.JPG'),
     },
+    {
+        name:'Joel Didla',
+        mail:'',
+        image:require('../../res/team_pic/joel.jpeg'),
+    },
+    {
+        name:'Sainath',
+        mail:'',
+        image:require('../../res/team_pic/sai.jpeg'),
+    },
     
 ]
 
